@@ -14,15 +14,21 @@ const Header = () => {
             <section>
                 <button>
                     <Image src={dropdown} alt="" onClick={() => setIsOpen(!isOpen)}/>
-                    Menu
+                    <span>Menu</span>
                 </button>
 
                 {isOpen && (
                      <ul className="dropdown-menu">
-                        <button>About me</button>
-                        <button>Overview</button>
-                        <button>Framework</button>
-                    </ul>
+                        <button onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })}>
+                            About Me
+                        </button>
+                        <button onClick={() => document.getElementById("overview")?.scrollIntoView({ behavior: "smooth" })}>
+                            Overview
+                        </button>
+                        <button onClick={() => document.getElementById("framework")?.scrollIntoView({ behavior: "smooth" })}>
+                            Framework
+                        </button>
+                        </ul>
                 )}
             </section>
         </header>

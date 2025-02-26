@@ -26,7 +26,7 @@ export default function HomeContainer() {
     <>
         <div>
             <article>
-                <section>
+                <section id="about">
                 <h2>About Me</h2>
                  <ol>
                     <li><b>Full Name:</b> Azarya Stefanus Lopulalan</li>
@@ -42,12 +42,12 @@ export default function HomeContainer() {
                  </ol>
                 </section>
 
-                <section>
+                <section id="overview">
                     <h2>Overview</h2>
                     <p>Halo perkenalkan nama saya adalah Azarya Stefanus Lopulalan, teman-teman saya kerap memanggil saya dengan Aza. saya lahir di Bogor pada 02 September 2003, dan saat ini saya berusia {hitungUmur("2003-09-02")} tahun. Saya tinggal di Bogor dan sedang menempuh pendidikan di Universitas Brawijaya jurusan Teknologi Informasi, sejak tahun 2022. Saya memiliki ketertarikan di dunia pemrograman, terutama dalam bidang pembuatan website. Framework yang sering saya gunakan dalam pengembangan web antara lain React.js, Next.js, dan Laravel. Selain itu, saya juga menguasai beberapa bahasa pemrograman lainnya, seperti Java, PHP, dan Kotlin, yang semakin memperkaya kemampuan saya dalam membangun berbagai aplikasi berbasis web dan mobile. dan dalam pembuatan laman web ini saya menggunakan framework Next js.</p>
                 </section>
 
-                <section>
+                <section id="framework">
                     <h2>My Favorite framework to code</h2>
                     <Marquee>
                     <Image src={reactpict} alt="PasFoto"/>
