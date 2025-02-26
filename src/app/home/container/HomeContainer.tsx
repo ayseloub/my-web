@@ -3,10 +3,7 @@ import Marquee from "react-fast-marquee";
 import Image from "next/image";
 import reactpict from "@/../public/Reactpict.svg"
 import phppict from "@/../public/phppict.svg"
-import laravelpict from "@/../public/laravelpict.svg"
 import nextpict from "@/../public/next.svg"
-import kotlinpict from "@/../public/kotlinpict.svg"
-import javapict from "@/../public/javapict.svg"
 
 
 function hitungUmur(tanggalLahir: string): number {
@@ -55,10 +52,7 @@ export default function HomeContainer() {
                     <Marquee>
                     <Image src={reactpict} alt="PasFoto"/>
                     <Image src={phppict} alt="PasFoto"/>
-                    {/* <Image src={javapict} alt="PasFoto"/> */}
-                    {/* <Image src={kotlinpict} alt="PasFoto"/> */}
                     <Image src={nextpict} alt="PasFoto"/>
-                    {/* <Image src={laravelpict} alt="PasFoto"/> */}
                     </Marquee>
                 </section>
 
